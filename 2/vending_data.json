@@ -1,0 +1,16 @@
+﻿{
+    "MachineId": "TEST-MACHINE-001",
+    "Status": "Operational",
+    "LastRestock": "2025-06-01T08:00:00",
+    "Inventory": [
+        {"Name": "Roasted Pistachios", "Quantity": 12, "Price": 3.99, "ReorderLevel": 5},
+        {"Name": "Salted Pistachios", "Quantity": 8, "Price": 3.49, "ReorderLevel": 5},
+        {"Name": "Raw Almonds", "Quantity": 2, "Price": 4.49, "ReorderLevel": 5},
+        {"Name": "Dried Mango", "Quantity": 15, "Price": 4.49, "ReorderLevel": 5}
+    ],
+    "Sales": [
+        {"Timestamp": "2025-06-03T09:15:00", "ItemName": "Raw Almonds", "Amount": 4.49, "PaymentMethod": "Cash"},
+        {"Timestamp": "2025-06-03T11:30:00", "ItemName": "Roasted Pistachios", "Amount": 3.99, "PaymentMethod": "Credit Card"},
+        {"Timestamp": "2025-06-03T13:45:00", "ItemName": "Dried Mango", "Amount": 4.49, "PaymentMethod": "Mobile Pay"}
+    ]
+}
